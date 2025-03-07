@@ -1,0 +1,116 @@
+ /* Background Styling */
+ body {
+     margin: 0;
+     font-family: 'Arial', sans-serif;
+     background: url('https://via.placeholder.com/1200x800?text=Beautiful+Background') no-repeat center center fixed;
+     background-size: cover;
+     color: #333;
+ }
+
+ /* Container and Basic Styles */
+ .container {
+     background: rgba(75, 72, 72, 0.8);
+     max-width: 600px;
+     margin: 50px auto;
+     border-radius: 8px;
+     padding: 20px;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+
+ h1 {
+     margin-bottom: 20px;
+     font-size: 2em;
+     color: #0f8dbe;
+ }
+
+ .form-group {
+     margin-bottom: 10px;
+ }
+
+ input[type="text"],
+ select,
+ input[type="date"],
+ input[type="time"] {
+     width: calc(100% - 24px);
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     margin-bottom: 10px;
+ }
+
+ select {
+     cursor: pointer;
+ }
+
+ .todo-list {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 10px;
+     list-style-type: none;
+     padding: 0;
+ }
+
+ .todo-item {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 10px;
+     background: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .todo-item.completed span {
+     text-decoration: line-through;
+     color: #999;
+ }
+
+ .task-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .task-header span {
+     flex-grow: 1;
+     margin-left: 10px;
+     text-align: left;
+ }
+
+ .buttons {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+ }
+
+ .buttons button {
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     padding: 8px 12px;
+     cursor: pointer;
+     transition: background-color 0.2s;
+ }
+
+ .buttons button:hover {
+     background-color: #0056b3;
+ }
+
+ .edit-button {
+     background-color: #ffc107;
+ }
+
+ .edit-button:hover {
+     background-color: #e0a800;
+ }
+
+ .priority {
+     width: 90px;
+     text-align: center;
+     background-color: #007bff;
+     border-radius: 5px;
+     color: #fff;
+     padding: 8px 12px;
+ }
