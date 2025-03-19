@@ -50,7 +50,7 @@
  }
 
  .todo-list {
-     margin-top: 10px; 
+     margin-top: 5px; 
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap: 10px;
