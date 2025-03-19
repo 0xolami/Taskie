@@ -141,7 +141,7 @@
     </div>
     <div class="buttons">
       <button onclick="addTask()">Add Task</button>
-    </div>
+    </div> <br> <br> <br> <br>
     <ul class="todo-list" id="todo-list">
       <!-- Todo items will be dynamically added here -->
     </ul>
